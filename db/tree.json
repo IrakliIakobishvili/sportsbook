@@ -1,0 +1,170 @@
+[
+    {
+        "id":1,
+        "name":"soccer",
+        "total":4,
+        "priority":10,
+        "countries":[
+            {
+                "id":1,
+                "name":"Soccer Union",
+                "total":2,
+                "leagues": [
+                    {
+                        "id":4411990,
+                        "name":"Super League",
+                        "total":1
+                    },
+                    {
+                        "id":4411991,
+                        "name":"Best League",
+                        "total":1
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "name":"National union",
+                "total":2,
+                "leagues": [
+                    {
+                        "id":4890528,
+                        "name":"Soccer League",
+                        "total":1
+                    },
+                    {
+                        "id":4411991,
+                        "name":"League Name",
+                        "total":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name":"basketBall",
+        "total":5,
+        "priority":15,
+        "countries":[
+            {
+                "id":1,
+                "name":"basketBall Union",
+                "total":2,
+                "leagues": [
+                    {
+                        "id":9845083,
+                        "name":"BasketBall League",
+                        "total":0
+                    },
+                    {
+                        "id":2309173,
+                        "name":"NBL",
+                        "total":2
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "name":"National BasketBall",
+                "total":3,
+                "leagues": [
+                    {
+                        "id":4908684,
+                        "name":"Some League",
+                        "total":1
+                    },
+                    {
+                        "id":4980572,
+                        "name":"Another League",
+                        "total":2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":3,
+        "name":"tennis",
+        "total":3,
+        "priority":13,
+        "countries":[
+            {
+                "id":1,
+                "name":"Tennis union",
+                "total":1,
+                "leagues": [
+                    {
+                        "id":5806803,
+                        "name":"Super League",
+                        "total":1
+                    },
+                    {
+                        "id":4905682,
+                        "name":"Other League",
+                        "total":0
+                    }
+                ]
+            },
+            {
+                "id":1,
+                "name":"National Tennis",
+                "total":2,
+                "leagues": [
+                    {
+                        "id":4092649,
+                        "name":"Lorem League",
+                        "total":0
+                    },
+                    {
+                        "id":2309173,
+                        "name":"Ipsum League",
+                        "total":2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":4,
+        "name":"Rugby",
+        "total":3,
+        "priority":7,
+        "countries":[
+            {
+                "id":1,
+                "name":"Rugby Union",
+                "total":1,
+                "leagues": [
+                    {
+                        "id":4890528,
+                        "name":"First League",
+                        "total":1
+                    },
+                    {
+                        "id":4909854,
+                        "name":"Second League",
+                        "total":0
+                    }
+                ]
+            },
+            {
+                "id":1,
+                "name":"National Rugby",
+                "total":2,
+                "leagues": [
+                    {
+                        "id":4411990,
+                        "name":"National League",
+                        "total":2
+                    },
+                    {
+                        "id":2894572,
+                        "name":"Best League",
+                        "total":0
+                    }
+                ]
+            }
+        ]
+    }
+]

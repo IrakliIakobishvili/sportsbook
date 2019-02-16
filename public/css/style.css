@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.tree {
+    background: #263238;
+    display: inline-block;
+    color: #908e8e;
+    font-size: 15px;
+    font-weight: bold;
+    width: 320px;
+    margin: 50px;
+    overflow: hidden;
+}
+.sport-list .name {
+    padding: 15px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.total {
+    float: right;
+    margin-right: 60px;
+    padding: 15px;
+}
+.sport-list__country-list__league-list .total {
+    margin-right: 40px;
+}
+.list {
+    cursor: pointer;
+}
+
+.sport-list__country-list {
+    background: #2f3d45;
+}
+.sport-list__country-list__league-list {
+    background: #354650;
+}
+
+.sport-list__item {
+    position: relative;
+}
+.sport-list__item .list {
+    position: absolute;
+    opacity: 0;
+}
+.sport-list__country-list .name {
+    margin-left: 30px;
+}
+.sport-list__country-list__league-list .name  {
+    margin-left: 60px;
+}
+.show {
+    position: relative !important;
+    opacity: 1 !important;
+}
+
+/*------Grid------*/
+.grid-table {
+    margin-left: 50px;
+    border: 2px solid #c1c1c1;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.grid-table__tr:nth-of-type(even) {
+    background: #f4f4f4;
+}
+.grid-table__tr__td {
+    padding: 15px;
+    border: 2px solid #c1c1c1;
+    text-transform: capitalize;
+    text-align: center;
+    min-width: 70px;
+}
+.grid-table__tr__td--body {
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.grid-table__tr__td[name='pair'] {
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+}
+.grid-table__tr__td--date {
+    width: 150px;
+    text-align: right;
+}
+.grid-table__tr__td--pair {
+    width: 300px;
+}
+.grid-table__tr td:nth-child(3) {
+    border-left: 3px solid darkgray;
+}
+.grid-table__tr td:nth-child(5) {
+    border-right: 3px solid darkgray;
+}
+.grid-table__tr td:nth-child(8) {
+    border-left: 3px solid darkgray;
+}
+.grid-table__tr td:nth-child(10) {
+    border-right: 3px solid darkgray;
+}
+.grid-table__tr td:nth-child(13) {
+    border-left: 3px solid darkgray;
+}
